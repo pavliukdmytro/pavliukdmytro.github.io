@@ -1,4 +1,4 @@
-# pavliukdmytro.github.io
+# Dmytro Pavliuk
 
 
 GitHub репозиторий
