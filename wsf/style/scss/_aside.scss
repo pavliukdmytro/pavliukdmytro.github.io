@@ -1,0 +1,30 @@
+aside{
+    width: 80px / 1920px * 100%;
+    min-height: 1080px - 116px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside_menu{
+    color: #fff;
+    font-family: Circle-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    
+    li{
+        transform: rotate(90deg);
+        margin-bottom: 46px;
+    }
+    li:last-child{
+        margin-bottom: 0px;
+    }
+    li:hover{
+        color: green;
+        cursor: pointer;
+    }
+    li:active{
+        color: #014101;
+    }
+}

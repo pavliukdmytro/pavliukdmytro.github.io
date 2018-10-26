@@ -1,0 +1,126 @@
+#animate_block{
+    width: 0px;
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+#animate_block_one, #animate_block_two, #animate_block_three, #animate_block_four{
+    width: 10%;
+    overflow: hidden; 
+    font-size: 14px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    position: relative;
+    left: -40px;
+}
+#animate_block_one{
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #070707;
+    font-family: Bahnschrift-Semi_Bold;
+    width: 18%;
+}
+#animate_block_two{
+    margin-right: 10%;
+}
+#animate_block_two, #animate_block_three{
+    font-family: ProximaNova-Light;
+    font-weight: 400;
+}
+#animate_block_four{
+    margin-left: 15%;
+    img{
+        display: block;
+    }
+}
+#animate_header{
+    color: #070707;
+    display: flex;
+    min-height: 116px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Circle-Regular;
+    font-size: 14px;
+    font-weight: 700;
+}
+.animate_block_row{
+    // display: flex;
+    // justify-content: flex-start;
+    // align-items: center;
+    padding-left: 8%;
+    height: 100%;
+}
+.project_first_row{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;   
+}
+.project_first_two{
+    width: 83%;
+    margin: 0 auto;
+    overflow: auto;
+    img{
+        width: 100%;
+        display: block;
+    }
+    .zero{
+        width: auto;
+    }
+}
+.project_title, .project_question_mark, .project_text,{
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    left: -40px;
+    float: left;
+    opacity: 0;
+}
+.project_title {
+    width: 30%;
+}
+.project_question_mark {
+    width: 40%;
+}
+.project_text{
+    width: 30%;
+}
+.zero{
+    position: relative;
+    left: 85%;
+}
+.project_first_two_block, .zero{
+    position: relative;
+    bottom: -40px;
+    opacity: 0;
+}
+.block_languages:hover{
+    color: green !important;
+}
+@media(max-width:768px){
+    .project_first_row{
+        // flex-direction: column;
+        // align-items: center;
+        .project_title, .project_question_mark, .project_text{
+            margin-bottom: 20px;
+        }
+    }
+    .animate_block_row{
+        // flex-direction: column;
+        // justify-content: center;
+        // height: 100%;
+        // text-align: center;
+    }
+    #animate_block_four{
+        img{
+            margin: 0 auto;  
+        }
+    }
+}
