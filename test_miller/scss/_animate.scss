@@ -1,0 +1,39 @@
+.animate{
+    position: relative;
+    overflow: hidden;
+    border-bottom-right-radius:  29% 75%;
+    height: auto;
+    padding-top: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.animate_bg{
+    display: block;
+    width: 100%;
+}
+.animate_element{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    transition: transform 1.5s;
+    transform: translateY(10%);
+}
+.animate_element_end{
+    transition: transform 1.5s;
+    transform: translateY(0%);
+}
+.animate_element_start{
+    transition: transform 1.5s;
+    transform: translateY(10%);
+}
+.amimate_wrap{
+    width: 1000px / 1360px * 100%;
+}
+.amimate_start{
+    transition: transform 1.5s;
+    transform: translateX(150%);
+}
+.amimate_end{
+    transition: transform 1.5s;
+    transform: translateX(0%);
+}
