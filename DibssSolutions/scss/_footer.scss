@@ -1,0 +1,98 @@
+footer{
+    padding-top: 65px;
+}
+#facebook{
+    fill: #3a86c6;
+}
+#facebook:hover{
+    fill: #6399c6;
+}
+#linkedin{
+    fill:#0884bd;
+}
+#linkedin:hover{
+    fill:#3494c0;
+}
+#twitter{
+    fill:#2ea9e1;
+}
+#twitter:hover{
+    fill:#59b2db;
+}
+#instagram{
+    fill:#3b82b9
+}
+#instagram:hover{
+    fill:#5f8fb4
+}
+.inform_social-icon svg{
+    margin-right: 10px;
+}
+.inform_shakerfactory{
+    max-width: 270px;
+    margin-right: 65px / 1040px * 100%;
+    h6{
+        color: #3974ca;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    p{
+        color: #323232;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+    }
+}
+.inform_contact{
+    max-width: 260px;
+    margin-right: 65px / 1040px * 100%;
+    h6{
+        font-size: 12px;
+        color: #3974ca;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+    }
+    p{
+        color: #323232;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+        a{
+            color: #3974ca;
+        }
+    }
+}
+.inform_social{
+    margin-right: 65px / 1040px * 100%;
+    h6{
+        font-size: 12px;
+        color: #3974ca;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+}
+.inform_row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.made{
+    color: #323232;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin-left: 20px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+    
