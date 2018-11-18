@@ -1,0 +1,45 @@
+@import 'colors_fonts';
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: OpenSans-Regular;
+    color: #fff;
+}
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    padding-left: 80px / 1200px * 100%;
+    padding-right: 80px / 1200px * 100%;
+}
+.custom_text{
+    max-width: 620px;
+}
+
+
+
+
+
+@import 'header';
+@import 'slider';
+@import 'support';
+@import 'supply';
+@import 'footer';
+@import 'adaptive';
