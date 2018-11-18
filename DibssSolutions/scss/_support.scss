@@ -1,0 +1,128 @@
+.support_title{
+    color: #315479;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -1.28px;
+    text-align: center;
+    width: 48%;
+    margin: 0 auto 60px;
+}
+.custome_col{
+    color: #315479;
+    max-width: 550px;
+}
+.custome_col img{
+    display: block;
+    width: 100%;
+}
+.custome_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.custome_col:first-child{
+    padding-right: 14%;
+}
+.custome_col h5{
+    font-size: 25px;
+    color: #315479;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+.custome_col p{
+    font-size: 20px;
+    letter-spacing: -0.9px;
+    color: #677482;
+    font-weight: 400;
+}
+.door_img{
+    max-width: 500px;
+}
+.door_img img{
+    display: block;
+    width: 100%;
+}
+.door_text h5{
+    font-size: 25px;
+    color: #315479;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+.door_text p{
+    font-size: 20px;
+    color: #677482;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+}
+.door_row{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.door_text{
+    max-width: 383px;
+}
+.clients{
+    color: #315479;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -1.44px;
+    text-align: center;
+}
+.say_col-text{
+    background-color: #158af4;
+    padding: 45px 45px 45px 60px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: -0.76px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.say_col-text:after{
+    content: url(../images/contant/Rounded.png);
+    position: absolute;
+    display: block;
+    width: 10px;
+    left: 20px;
+    bottom: -56px;
+    transform: scale(0.5);
+    z-index: 2;
+}
+.say_col-text:before{
+    content: url(../images/contant/quote.png);
+    position:absolute;
+    transform: scale(0.6);
+    left: 10px;
+    top: 23px;
+}
+.say{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+}
+.say_col{
+    max-width: 320px;
+    margin-right: 25px;
+}
+.say_col-name{
+    color: #677482;
+    font-size: 14px;
+    letter-spacing: -0.56px;
+    
+}
+.say_col-name h6{
+    color: #315479;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.say_col-name{
+    padding: 5px;
+}
