@@ -1,7 +1,2 @@
 # Dmytro Pavliuk
-
-
-Test task
-
-
-[bd2 test task](https://pavliukdmytro.github.io/db2_test_task/ "My work")
+[simple-counter](https://pavliukdmytro.github.io/simple-counter/ "My work")

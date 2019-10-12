@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+		<script src="dist/index.js" defer></script>
+		<link rel="stylesheet" href="dist/styles.css">
+	</head>
+	<body>
+	<br>
+	<br>
+		<!--counter-->
+	<div>
+		<div data-counter="[1, 15, 1]">
+			<svg width="12px" height="12px" class="minus">
+				<use xlink:href="#svg-minus"></use>
+			</svg>
+			<input type="text" value="1" class="counter">
+			<svg width="12px" height="12px" class="plus">
+				<use xlink:href="#svg-plus"></use>
+			</svg>
+			<div class="error-message">
+				error message
+			</div>
+		</div>
+	</div>
+
+		<!--svg sprite -->
+		<svg style="display: none">
+			<symbol id="svg-minus" viewBox="0 0 455 455">
+				<rect y="212.5" width="455" height="30"/>
+			</symbol>
+			<symbol id="svg-plus" viewBox="0 0 42 42">
+				<polygon points="42,19 23,19 23,0 19,0 19,19 0,19 0,23 19,23 19,42 23,42 23,23 42,23 "/>
+			</symbol>
+		</svg>
+
+	</body>
+</html>
