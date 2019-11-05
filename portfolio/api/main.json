@@ -1,0 +1,160 @@
+{
+  "blocks": {
+    "main": {
+      "banner": {
+        "image": "./images/my-photo.jpg",
+        "svg": "<svg  class=\"path\"><use xlink:href=\"#svg-pavliuk-dmytro\"></use></svg>"
+      },
+      "share": [
+        {
+          "image": "<svg width='36px' height='36px' class=\"inline-svg-icon\"><use xlink:href=\"#svg-facebook\"></use></svg>",
+          "link": "https://www.facebook.com/profile.php?id=100003257975635"
+        },
+        {
+          "image": "<svg width='36px' height='36px' class=\"inline-svg-icon\">\n\t<use xlink:href=\"#svg-linkedin\"></use>\n</svg>",
+          "link": "https://www.linkedin.com/in/dmytro-pavliuk-42852b174/"
+        },
+        {
+          "image": "<svg width='36px' height='36px' class=\"inline-svg-icon\"><use xlink:href=\"#svg-github\"></use></svg>",
+          "link": "https://github.com/pavliukdmytro"
+        }
+
+      ]
+    },
+    "summary": {
+      "title": "Summary",
+      "content": {
+        "contacts": {
+          "Phone:": "<a href=\"tel:+380637137010\">(063) 713-70-10</a>",
+          "Mail:": "<a href=\"mailto:pavliukmail@gmail.com\">pavliukmail@gmail.com</a>",
+          "Social network:": "<a href=\"https://www.facebook.com/profile.php?id=100003257975635\">Facebook</a>",
+          "github:": "<a href=\"https://github.com/pavliukdmytro\">https://github.com/pavliukdmytro</a>",
+          "Address:": "Ukraine, Kyiv",
+          "Age:": "24",
+          "show": true
+        },
+        "Professional Skills": {
+          "HTML5, CSS3, SASS": "middle level of knowledge",
+          "JavaScript, jQuery": "middle level of knowledge",
+          "Webpack, Vue, Vuex": "middle level of knowledge",
+          "Git": "middle level of knowledge",
+          "show": false
+        },
+        "Education": {
+          "University": "2013-2018 Kyiv National University of Trade and Economics. Obtained qualification: Bachelor Degree Program Subject Area “Tourism”",
+          "Courses": "2017 - Kyiv Training Center \"Kursor\", Course web design (HTML,CSS).",
+          "show": false
+        },
+        "Additional information" : {
+          "English": "read and write",
+          "show": false
+        },
+        "Personal Characteristics" :{
+          "text": "Able to prioritize, detail-oriented, hardworking, multitasking, open to change, well-organized",
+          "show": false
+        },
+        "Work experience": {
+          "19.11.2018": " - until that time\n Yamasters web developers,  Junior Front-end developer\n",
+          "show": false
+        }
+      }
+    },
+    "works": {
+      "title": "Works",
+      "blocks": [
+        {
+          "name": "anvistyle",
+          "link": {
+            "text": "anvistyle",
+            "link": "https://anvistyle.ua"
+          },
+          "description": "Front-End development",
+          "image": {
+            "src": "./images/anvistyle.jpg",
+            "alt": "anvistyle"
+          }
+        },
+        {
+          "name": "Hepatitis",
+          "link": {
+            "text": "hepatitis",
+            "link": "https://hfua.org.ua"
+          },
+          "description": "Front-End development",
+          "image": {
+            "src": "./images/hepatitis.jpg",
+            "alt": "hepatitis"
+          }
+        },
+        {
+          "name": "light horse",
+          "link": {
+            "text": "light horse",
+            "link": "http://frontend.web1.com.ua/new-light-horse-stable/"
+          },
+          "description": "Front-End company solution development",
+          "image": {
+            "src": "./images/new-light-horse.png",
+            "alt": "light-horse"
+          }
+        },
+        {
+          "name": "englishhome",
+          "link": {
+            "text": "englishhome",
+            "link": "https://englishhome.ua/"
+          },
+          "description": "Front-End development and optimization",
+          "image": {
+            "src": "./images/englishhome.png",
+            "alt": "englishhome"
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Me",
+      "input": {
+        "placeholder": "write your email",
+        "name": "testKey"
+      },
+      "textarea": {
+        "placeholder": "write your message"
+      },
+      "map": {
+        "params" : {
+          "zoom" : 13,
+          "center": {
+            "longitude" : 50.45096,
+            "latitude": 30.52262
+          }
+        },
+        "markers": [
+          {
+            "longitude" : 50.45096,
+            "latitude": 30.52262,
+            "popup": "Hello"
+          }
+        ]
+      }
+    }
+  },
+  "menu": {
+    "summary": {
+      "component" : "my-summary",
+      "svg": "<svg class=\"inline-svg-icon\">\n\t<use xlink:href=\"#svg-sammary\"></use>\n</svg>"
+    },
+    "main": {
+      "component" : "header-components",
+      "svg": "<svg class=\"inline-svg-icon\">\n\t<use xlink:href=\"#svg-main\"></use>\n</svg>"
+    },
+    "works": {
+      "component" : "my-works",
+      "svg": "<svg class=\"inline-svg-icon\">\n\t<use xlink:href=\"#svg-work\"></use>\n</svg>"
+    },
+    "contact": {
+      "component": "my-contact",
+      "svg" : "<svg class=\"inline-svg-icon\">\n\t<use xlink:href=\"#svg-letter\"></use>\n</svg>"
+    }
+  }
+}
