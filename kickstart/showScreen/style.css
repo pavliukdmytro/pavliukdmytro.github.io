@@ -1,0 +1,38 @@
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+input::-webkit-inner-spin-button{
+	display: none;
+}
+input, textarea{
+	display: block;
+}
+input:focus, textarea:focus {
+	outline: none;
+}
+body{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+[type="number"] {
+	width: 100%;
+	padding: 5px 10px;
+}
+.text-area{
+	width: 100%;
+	resize: none;
+	padding: 5px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.output span {
+	margin-left: 10px;
+}
+.container {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
